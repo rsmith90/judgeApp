@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import tailwind from './assets/Tailwind_CSS_Logo.svg'
+import wheel from './assets/wheel.png'
+import peopleExample from './components/Example'
 import './App.css'
 
 
@@ -10,15 +12,15 @@ function App() {
   return (
     <div className="App">
       <div>
-
+        {/* <Example /> */}
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://beta.reactjs.org/" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <a href="https://tailwindcss.com/docs" target="_blank">
-          <img src={tailwind} className="logo" alt="Tailwind logo" />
+          <img src={tailwind} className="logo tailwind" alt="Tailwind logo" />
         </a>
       </div>
       <h1>Vite + React + Tailwind</h1>

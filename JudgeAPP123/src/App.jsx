@@ -6,6 +6,7 @@ import Example from './components/Example'
 import Daisy from './assets/Daisy.png'
 import Test from './components/Test'
 import './App.css'
+import ThemeChanger from './components/ThemeChanger'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <div>
-
+    <ThemeChanger/>
         <Test />
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />

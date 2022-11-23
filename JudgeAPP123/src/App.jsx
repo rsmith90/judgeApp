@@ -3,6 +3,7 @@ import Example from './components/Example'
 import Test from './components/Test'
 import Logos from './components/Logos'
 import './App.css'
+import ThemeChanger from './components/ThemeChanger'
 
 
 function App() {
@@ -10,10 +11,14 @@ function App() {
 
   return (
     <div className="App">
+      <div>
+      <ThemeChanger/>
       <Test />
       <Logos />
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button
+          class="btn btn-primary"
+          onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>

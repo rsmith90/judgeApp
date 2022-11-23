@@ -57,6 +57,14 @@
   padding: 2em;
 }
 
+.skew {
+  position: absolute;
+  height: 3.5em;
+  width: 15em;
+  transform: skew(-30deg);
+  background-image: linear-gradient(black 0%, rgb(65,65,65) 20%, black 40%, rgb(150,150,150) 70%, black 100%)
+}
+
 .read-the-docs {
   color: #888;
 }

@@ -1,3 +1,5 @@
+import Competitor from "./Competitor"
+
 const people = [
     {
         name: 'Calvin Hawkins',
@@ -22,18 +24,12 @@ const people = [
 export default function Example() {
     return (
         <div>
-            <h1>Random Array of People</h1>
-            <ul className="divide-y divide-gray-200">
+            <h3 class="prose prose-xl">Registered Racers:</h3>
+            <div className="divide-y divide-gray-200">
                 {people.map((person) => (
-                    <li key={person.email} className="py-4 flex">
-                        <img className="h-10 w-10 rounded-full" src={person.image} alt="" />
-                        <div className="ml-3">
-                            <p className="text-sm font-medium text-gray-900">{person.name}</p>
-                            <p className="text-sm text-gray-500">{person.email}</p>
-                        </div>
-                    </li>
+                    <Competitor name={person.name} email={person.email} image={person.image} />
                 ))}
-            </ul>
+            </div>
         </div>
     )
 }

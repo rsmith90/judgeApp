@@ -5,13 +5,25 @@
   text-align: center;
 }
 
+.logo-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo-conainer:hover {
+  text-decoration: underline;
+}
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  max-height: 8em;
+  object-fit: cover;
+  padding: 0.5em;
   will-change: filter;
 }
 
-.logo:hover {
+.logo.vite:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
@@ -21,6 +33,10 @@
 
 .logo.tailwind:hover {
   filter: drop-shadow(0 0 2em #44ff51eb);
+}
+
+.logo.daisy:hover {
+  filter: drop-shadow(0 0 2em #f3e816b5)
 }
 
 @keyframes logo-spin {
@@ -33,10 +49,8 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.spin {
+  animation: logo-spin infinite 2s linear;
 }
 
 .card {

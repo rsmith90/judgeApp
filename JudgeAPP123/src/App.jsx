@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Example from './components/Example'
+import Leaderboard from './components/Leaderboard'
 import Test from './components/Test'
 import Logos from './components/Logos'
 import './App.css'
@@ -16,7 +16,7 @@ function App() {
       <Logos />
       <div className="card">
         <button
-          class="btn btn-primary"
+          className="btn btn-primary"
           onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -27,7 +27,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite + React + Tailwind logos to learn more!
       </p>
-      <Example />
+      <Leaderboard />
     </div>
   )
 }

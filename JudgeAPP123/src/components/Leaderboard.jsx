@@ -21,13 +21,13 @@ const people = [
     },
 ]
 
-export default function Example() {
+export default function Leaderboard() {
     return (
         <div>
-            <h3 class="prose prose-xl">Registered Racers:</h3>
-            <div className="divide-y divide-gray-200">
-                {people.map((person) => (
-                    <Competitor name={person.name} email={person.email} image={person.image} />
+            <h3 className="prose prose-xl">Registered Racers:</h3>
+            <div>
+                {people.map((person, i) => (
+                    <Competitor key={i} name={person.name} email={person.email} image={person.image} />
                 ))}
             </div>
         </div>

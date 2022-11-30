@@ -2,14 +2,8 @@ import React from 'react'
 import ThemeChanger from './ThemeChanger'
 
 export default function Navbar() {
-
-    function clickMenu() {
-
-    }
-
-    <a className="btn btn-ghost normal-case text-xl">Judge Placements</a>
     return (
-        <div className="navbar bg-base-100">
+        <nav className="navbar flex place-content-between bg-base-100">
             <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="">
                     <a className="btn btn-ghost normal-case text-xl">Judge Placements</a>
@@ -57,6 +51,6 @@ export default function Navbar() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }

@@ -5,7 +5,7 @@ export default function About() {
     const [count, setCount] = useState(0)
 
     return (
-        <>
+        <div className='grid'>
         <Logos />
             <div className="card">
                 <button
@@ -20,6 +20,6 @@ export default function About() {
             <p className="read-the-docs">
                 Click on the Vite + React + Tailwind logos to learn more!
             </p>
-        </>
+        </ div>
     )
 }

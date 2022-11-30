@@ -4,6 +4,7 @@ import Test from './components/Test'
 import Logos from './components/Logos'
 import './App.css'
 import ThemeChanger from './components/ThemeChanger'
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeChanger/>
-      <Test />
+      <Navbar />
+      <Leaderboard />
       <Logos />
       <div className="card">
         <button
@@ -27,7 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite + React + Tailwind logos to learn more!
       </p>
-      <Leaderboard />
+      
     </div>
   )
 }

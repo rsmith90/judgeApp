@@ -1,6 +1,6 @@
     - Explanation -
 
-This is a project to help instill basic concepts of React language and popular packages for everyday use. The Judge App is able to help singular or multiple judges in racing scenarios keep track of finishes and timed results of participants. Information will be able to be viewed at a results page.
+This is a project to help instill basic concepts of React language and popular packages for everyday use. The Judge App is able to help singular or multiple judges in racing scenarios keeping track of finishes and timed results of participants. Information will be able to be viewed at a results page.
 
 
     - The Front End -

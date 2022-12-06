@@ -3,7 +3,7 @@ import ThemeChanger from './ThemeChanger'
 
 export default function Navbar() {
     return (
-        <nav className="navbar flex place-content-between bg-base-100 shadow-md">
+        <nav className="navbar flex place-content-between bg-base-100 shadow-md sticky top-0 z-10">
             <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="">
                     <a className="btn btn-ghost normal-case text-xl">Judge Placements</a>
@@ -24,7 +24,6 @@ export default function Navbar() {
                     <li><a>Help</a></li>
                 </ul>
             </div>
-
 
             <div className="p-2">
                 <ThemeChanger />

@@ -9,7 +9,7 @@ export default function ThemeChanger() {
 
         console.log(body.getAttribute("data-theme"));
 
-        body.getAttribute("data-theme") === "lofi" ? body.setAttribute("data-theme", "business") : body.setAttribute("data-theme", "lofi")
+        body.getAttribute("data-theme") === "light" ? body.setAttribute("data-theme", "dark") : body.setAttribute("data-theme", "light")
     }
 
     return (

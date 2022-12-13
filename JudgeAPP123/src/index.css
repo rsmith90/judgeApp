@@ -19,11 +19,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* #root {
-  width: 100vw;
-  min-height: 100vh;
-} */
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -36,10 +31,6 @@ a:hover {
 
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center; */
-  /* min-width: 1280px;
-  min-height: 100vh; */
 }
 
 h1 {

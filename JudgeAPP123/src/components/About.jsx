@@ -5,9 +5,9 @@ export default function About() {
     const [count, setCount] = useState(0)
 
     return (
-        <div className='grid-flow-row-dense m-4'>
+        <div className='grid-flow-row-dense bg-base-100 m-4'>
             <Logos />
-            <div className="m-4">
+            <div className="text-center m-4">
                 <button
                     className="btn btn-primary m-4"
                     onClick={() => setCount((count) => count + 1)}>
@@ -17,7 +17,7 @@ export default function About() {
                     Edit <code>src/App.jsx</code> and save to test HMR
                 </p>
             </div>
-            <p className="text-slate-400">
+            <p className="text-center text-slate-400">
                 Click on the Vite + React + Tailwind logos to learn more!
             </p>
         </ div>

@@ -2,19 +2,21 @@ import React from 'react'
 import Leaderboard from './components/Leaderboard'
 import Navbar from './components/Navbar'
 import About from './components/About'
-import Navbar2 from './components/Navbar2'
 import Footer from './components/Footer'
+import Hero from './components/Hero'
+import GetStarted from './components/GetStarted'
+
 import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="">
       <Navbar />
-      {/* <Navbar2 /> */}
-      <div className="App">
-        <Leaderboard />
+      <Hero />
+      <GetStarted />
+        {/* <Leaderboard /> */}
         <About />
-      </div>
+      
       <Footer />
     </div>
   )

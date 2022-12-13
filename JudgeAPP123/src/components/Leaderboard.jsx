@@ -1,34 +1,50 @@
 import Competitor from "./Competitor"
 
+
+// look to add more information into the cards in columns
 const people = [
     {
+        position: 'First',
+        time: '8.79',
         name: 'Calvin Hawkins',
         email: 'calvin.hawkins@example.com',
         image:
-            'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://placeimg.com/80/80/people',
     },
     {
+        position: 'Second',
+        time: '9.79',
         name: 'Kristen Ramos',
         email: 'kristen.ramos@example.com',
         image:
-            'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://placeimg.com/80/80/people',
     },
     {
+        position: 'Third',
+        time: '10.79',
         name: 'Ted Fox',
         email: 'ted.fox@example.com',
+
         image:
-            'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://placeimg.com/80/80/people'
     },
 ]
 
 export default function Leaderboard() {
     return (
-        <div>
-            <h3 className="prose prose-xl">Registered Racers:</h3>
-            <div>
-                {people.map((person, i) => (
-                    <Competitor key={i} name={person.name} email={person.email} image={person.image} />
-                ))}
+        // box div around card for sizing location
+        <div className="flex w-screen m-1 p-1 justify-left">
+            {/* actual card positioning and layout */}
+            <div className="max-w-2xl shadow-lg p-1 m-1">
+                {/* header */}
+                <h3 className="text-center prose prose-xl">Registered Racers:</h3>
+                <div className="">
+                    {people.map((person, i) => (
+                        <Competitor
+                            key={i} name={person.name} email={person.email} image={person.image}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )

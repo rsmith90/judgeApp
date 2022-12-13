@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
 import ThemeChanger from './ThemeChanger'
 
 export default function Navbar() {
+    const [open, setOpen] = useState(false);
+
     return (
         <nav className="navbar flex place-content-between bg-base-100 shadow-md sticky top-0 z-10">
+
+            {/* Left Side Panel Menu */}
             <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="">
                     <a className="btn btn-ghost normal-case text-xl">Judge Placements</a>
@@ -24,14 +28,22 @@ export default function Navbar() {
                     <li><a>Help</a></li>
                 </ul>
             </div>
+            {/* Left Side Panel Menu */}
 
-            <div className="p-2">
+            {/* ThemeChanger */}
+            {/* <div className="p-2">
                 <ThemeChanger />
-            </div>
+            </div> */}
+            {/* ThemeChanger */}
+
             <div className="flex-none gap-2">
-                <div className="form-control">
+                {/* search box */}
+                <div className="form-control hidden">
                     <input type="text" placeholder="Search" className="input input-bordered" />
                 </div>
+                {/* search box */}
+
+                {/* Right Side Panel Menu */}
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
@@ -46,12 +58,13 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li><a>About</a></li>
-                        <br></br>
                         <li><a>Help</a></li>
-                        <li><a>Settings</a></li>
+                        <li className='grid'><a>Settings</a><ThemeChanger /></li>
                         <li><a>Logout</a></li>
                     </ul>
                 </div>
+                {/* Right Side Panel Menu */}
+
             </div>
         </nav>
     )

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Logos from './Logos'
 
-export default function About() {
+export default function AboutUs() {
     const [count, setCount] = useState(0)
 
     return (

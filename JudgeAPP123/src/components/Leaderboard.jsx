@@ -1,4 +1,4 @@
-import Competitor from "./Competitor"
+import Competitor from "./Competitor";
 
 
 // look to add more information into the cards in columns

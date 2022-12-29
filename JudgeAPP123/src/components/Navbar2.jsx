@@ -1,8 +1,8 @@
-import React from 'react'
-import { HiOutlineMenu } from 'react-icons/hi'
-import { AiOutlineClose, AiFillHome } from 'react-icons/ai'
-import { ImStatsDots } from 'react-icons/im'
-import ThemeChanger from './ThemeChanger'
+import React from 'react';
+import { HiOutlineMenu } from 'react-icons/hi';
+import { AiOutlineClose, AiFillHome } from 'react-icons/ai';
+import { ImStatsDots } from 'react-icons/im';
+import ThemeChanger from './ThemeChanger';
 
 export default function Navbar2() {
     return (

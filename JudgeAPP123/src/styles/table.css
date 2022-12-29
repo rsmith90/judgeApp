@@ -1,0 +1,74 @@
+div.blueTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 1px solid #071013;
+    background-color: #E8EBF7;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  .divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+    border: 1px solid #AAAAAA;
+    padding: 3px 3px;
+  }
+  .divTable.blueTable .divTableBody .divTableCell {
+    font-size: 13px;
+    font-weight: bold;
+    color: #071013;
+  }
+  .divTable.blueTable .divTableRow:nth-child(even) {
+    background: #B1C7FF;
+  }
+  .divTable.blueTable .divTableHeading {
+    background: #071013;
+    background: -moz-linear-gradient(top, #454c4e 0%, #1f282a 66%, #071013 100%);
+    background: -webkit-linear-gradient(top, #454c4e 0%, #1f282a 66%, #071013 100%);
+    background: linear-gradient(to bottom, #454c4e 0%, #1f282a 66%, #071013 100%);
+    border-bottom: 2px solid #071013;
+  }
+  .divTable.blueTable .divTableHeading .divTableHead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E8EBF7;
+    border-left: 2px solid #D0E4F5;
+  }
+  .divTable.blueTable .divTableHeading .divTableHead:first-child {
+    border-left: none;
+  }
+  
+  .blueTable .tableFootStyle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #071013;
+    background: #071013;
+    background: -moz-linear-gradient(top, #454c4e 0%, #1f282a 66%, #071013 100%);
+    background: -webkit-linear-gradient(top, #454c4e 0%, #1f282a 66%, #071013 100%);
+    background: linear-gradient(to bottom, #454c4e 0%, #1f282a 66%, #071013 100%);
+    border-top: 2px solid #071013;
+  }
+  .blueTable .tableFootStyle {
+    font-size: 14px;
+  }
+  .blueTable .tableFootStyle .links {
+       text-align: right;
+  }
+  .blueTable .tableFootStyle .links a{
+    display: inline-block;
+    background: #B1C7FF;
+    color: #071013;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .blueTable.outerTableFooter {
+    border-top: none;
+  }
+  .blueTable.outerTableFooter .tableFootStyle {
+    padding: 3px 5px; 
+  }
+  /* DivTable.com */
+  .divTable{ display: table; }
+  .divTableRow { display: table-row; }
+  .divTableHeading { display: table-header-group;}
+  .divTableCell, .divTableHead { display: table-cell;}
+  .divTableHeading { display: table-header-group;}
+  .divTableFoot { display: table-footer-group;}
+  .divTableBody { display: table-row-group;}

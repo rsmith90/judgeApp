@@ -5,7 +5,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="navbar flex place-content-between bg-base-100 shadow-md sticky top-0 z-10">
+        <nav className="navbar flex place-content-between bg-gradient-to-r from-cyan-500 to-blue-500 shadow-md sticky top-0 z-10">
 
             {/* Left Side Panel Menu */}
             <div className="dropdown dropdown-end">

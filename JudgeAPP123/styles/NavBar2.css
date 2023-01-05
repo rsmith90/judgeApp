@@ -1,0 +1,62 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 23px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_color {
+    background-color: #111;
+}
+
+.banner--fadeTop {
+    height: 3rem;
+    background-image: linear-gradient(0deg,
+            transparent,
+            rgba(37, 37, 37, 0.61),
+            #111);
+}
+
+.nav_contents {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.nav_logo {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    width: 20px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.nav_text {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+    width: 100px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.nav_text:hover {
+    filter: drop-shadow(0 0 5em white);
+}
+
+.nav_avatar {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+    cursor: pointer;
+
+}

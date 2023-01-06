@@ -36,7 +36,7 @@ export default function Map() {
           defaultCenter={center}
           containerElement={<div style={{ height: `400px`, width: `400px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
-          googleMapURL={`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${position.coords.latitude},${position.coords.longitude}&radius=5000&type=skating_rink&key=AIzaSyDW9FXoClGvhPN1k2nehkUoU3esqbjBdWs`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${position.coords.latitude},${position.coords.longitude}&radius=5000&type=skating_rink&key=${apiKey}`}
         />
       </div>
       );

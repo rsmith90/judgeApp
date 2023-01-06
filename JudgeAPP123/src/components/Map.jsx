@@ -5,7 +5,9 @@ import '../../styles/maps.css'
 
 export default function Map() {
 
-  const rinkmaps = 'AIzaSyDW9FXoClGvhPN1k2nehkUoU3esqbjBdWs';
+
+  const apiKey = process.env.API_KEY;
+  
 
   const [center, setCenter] = useState({ lat: 0, lng: 0 });
   const [rinks, setRinks] = useState([]);
@@ -17,7 +19,7 @@ export default function Map() {
           lng: position.coords.longitude
         });
   
-        axios.get(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${position.coords.latitude},${position.coords.longitude}&radius=5000&type=skating_rink&key=${rinkmaps}`)
+        axios.get(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${position.coords.latitude},${position.coords.longitude}&radius=5000&type=skating_rink&key=${apiKey}`)
           .then(response => {
             setRinks(response.data.results);
           })

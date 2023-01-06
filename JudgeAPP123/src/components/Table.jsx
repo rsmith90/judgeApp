@@ -5,7 +5,8 @@ import '../styles/table.css'
 
 export default function Table() {
     return (
-        <div className='m-2 p-2'>
+        <div>
+        <div class='recordTable'>
             <div class="divTable blueTable">
                 <div class="divTableHeading">
                     <div class="divTableRow">
@@ -49,9 +50,11 @@ export default function Table() {
             </div>
             <div class="blueTable outerTableFooter">
                 <div class="tableFootStyle">
-                    {/* <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div> */}
-                </div>
+                    <div class="links"><a href="#">USARS</a> <a href="#">USRSS</a></div>
+                    {/* <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a> */}
+                </div> 
             </div>
+        </div>
         </div>
     )
 }

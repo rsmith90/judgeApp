@@ -40,7 +40,7 @@ export default function About() {
                 </div>
             </div>
             {/* carousel */}
-            <div className='m-10'>
+            <div className=''>
                 <Logos />
                 <div className="text-center m-4">
                     <button

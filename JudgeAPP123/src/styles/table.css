@@ -1,3 +1,13 @@
+div.recordTable {
+  margin: auto;
+  padding: 16px;
+  width: 95%;
+  object-fit: contain;
+  position: relative;
+  left: 1%;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
 div.blueTable {
     font-family: "Arial Black", Gadget, sans-serif;
     border: 1px solid #071013;

@@ -2,7 +2,7 @@ import React from 'react';
 import HomeScreen from './screens/HomeScreen'
 import Hero from './components/Hero'
 
-import './App.css'
+import './styles/App.css'
 
 function App() {
   return (

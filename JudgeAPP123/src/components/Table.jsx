@@ -56,6 +56,7 @@ export default function Table() {
             </div>
         </div>
         </div>
+
     )
 }
 

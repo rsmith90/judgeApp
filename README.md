@@ -27,16 +27,16 @@ Utilize Oauth login methods (Google, FB, Insta) only certain member logins allow
 
     - Some Help Getting Started -
 
-!! To get started ~ npm install ~ may need to be entered in terminal to load proper packages. ~ npm run dev ~ starts your dev server and sets up local host capability.
+!! To get started `npm install` may need to be entered in terminal to load proper packages. In your terminal run `npm run dev` this starts your developers server and sets up local host capability.
 
-~ npm install
-~ npm run dev
+> `npm install`
+> `npm run dev`
 
 Terminal should display what port dev server is on, ctrl + click link to open in new browser window to view prject.
 
 
-!! If error: check to make sure your terminal is in correct folder trying to run ~ npm run dev ~ . IF outside of folder you may run into cases of unknown script errors. 
+!! If error: check to make sure your terminal is in correct folder trying to run `npm run dev`. IF outside of folder you may run into cases of unknown script errors. 
 
-~ cd judgeAPP123
+`cd judgeAPP123`
 
 ^^^ This command in your terminal ensures you "Change Directory" to correct folder/project location.

@@ -41,6 +41,7 @@ export default function About() {
             </div>
             {/* carousel */}
             <div className=''>
+
                 <Logos />
                 <div className="text-center m-4">
                     <button

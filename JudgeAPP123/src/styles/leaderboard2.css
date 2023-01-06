@@ -1,7 +1,7 @@
 .comp_cards {
     margin: auto;
     padding: 4px;
-    max-width: 60%;
+    width: fit-content;
     background-color: #648DE5;
     border-radius: 4px;
     display: flex;
@@ -15,3 +15,6 @@
     
 }
 
+.graphedTimes {
+    
+}

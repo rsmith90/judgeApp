@@ -71,9 +71,9 @@ function Leaderboard2() {
 
   return (
     <div className=''>
-        <div class="grouped_persons" className="flex flex-col align-items-center">
+        <div class="grouped_persons" className="flex flex-col align-items-center w-full drop-shadow-2xl">
             {people.map((person, i) => (
-                <div className='p-1'>
+                <div className='p-1 w-fit'>
                 <Competitor
                     key={i}
                     position={person.position}
@@ -81,6 +81,10 @@ function Leaderboard2() {
                     name={person.name}
                     email={person.email}
                     image={person.image}
+                    lap={person.lap}
+                    age={person.age}
+                    team={person.team}
+                    gender={person.gender}
                 /></div>
             ))}
         </div>
